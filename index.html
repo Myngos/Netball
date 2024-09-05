@@ -1,0 +1,145 @@
+<!-- index.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LSON - Volleyball</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+</head>
+<body>
+    <div class="background"></div>
+    <header>
+        <h1>  <a href="">LSON </a>Volleyball</h1>
+    </header>
+    <nav>
+        <img src="images/logo2.jpg" alt="Namibia Volleyball Logo" class="logo">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#teams">National Teams</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="search-container">
+            <div class="search-bar">
+                <div class="search-icon">
+                    <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20px">
+                        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                    </svg>
+                </div>
+                <input type="text" placeholder="Search...">
+            </div>
+        </div>
+    </nav>
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Elevate Namibian Volleyball</h2>
+            <p>Join us in our mission to develop and promote volleyball across Namibia. From grassroots to international competitions, we're building a stronger volleyball community.</p>
+            <a href="#about" class="cta-button">Discover More</a>
+        </div>
+    </section>
+    <main>
+        <section id="about">
+            <h2>About Namibia Volleyball</h2>
+            <div class="about-content">
+                <img src="images/images.jpeg" alt="Namibia National Volleyball Team" class="about-image">
+                <div class="about-text">
+                    <p>The Namibia Volleyball Federation (NVF) is the governing body for volleyball in Namibia. Established in 1996, we've been dedicated to growing the sport across our beautiful nation.</p>
+                    <p>Our mission is to develop volleyball at all levels, from schools and local clubs to our national teams. We organize competitions, provide training for players and coaches, and work to increase the visibility of volleyball in Namibia.</p>
+                    <p>Join us in our journey to make Namibia a powerhouse in African volleyball!</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="news">
+            <h2>Latest News</h2>
+            <div class="news-section">
+                <div class="news-container">
+                    <div class="news-item">
+                        <img src="images/images.jpeg" alt="Namibia Volleyball Championship">
+                        <h3>Namibia Volleyball Team Wins Championship</h3>
+                        <p>The Namibia Volleyball team won the regional championship this weekend.</p>
+                    </div>
+                    <div class="news-item">
+                        <video controls>
+                            <source src="videos/" type="video/mp4">
+                        </video>
+                        <h3>Volleyball Training Camp</h3>
+                        <p>A training camp will be held next month for upcoming players.</p>
+                    </div>
+                    <div class="news-item">
+                        <img src="images/beach.jpeg" alt="New Volleyball Court">
+                        <h3>New Volleyball Court Inaugurated</h3>
+                        <p>A brand new volleyball court was opened in Windhoek.</p>
+                    </div>
+                </div>
+        </section>
+        <section id="teams">
+            <h2>National Teams</h2>
+            <div class="teams-grid">
+                <div class="team">
+                    <img src="images/men.jpeg" alt="Men's National Team">
+                    <h3>Men's National Team</h3>
+                    <p>Our men's team competes at the highest level in African volleyball.</p>
+                </div>
+                <div class="team">
+                    <img src="images/women.jpeg" alt="Women's National Team">
+                    <h3>Women's National Team</h3>
+                    <p>Our women's team is rising through the ranks in continental competitions.</p>
+                </div>
+                <div class="team">
+                    <img src="images/beach.jpeg" alt="Beach Volleyball Team">
+                    <h3>Beach Volleyball Team</h3>
+                    <p>Our beach volleyball program is gaining momentum on the international stage.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About </a></li>
+                    <li><a href="#teams">National Teams</a></li>
+                    <li><a href="#events">Events Calendar</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank"><i id ="facebook" class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"> <i id ="instagram" class="fa-brands fa-instagram" ></i></a>
+                    <a href="https://x.com/?lang=en"><i id="x" class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Information</h3>
+                <p>Email: info@lsonvolleyball.org</p>
+                <p>Phone: +264 817 508 043</p>
+                <p>Address: address, Windhoek, Namibia</p>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2024 LSON-Volleyball. All rights reserved.</p>
+    </footer>
+    <script defer src="script.js"></script>
+</body>
+</html>
+
