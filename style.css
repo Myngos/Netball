@@ -262,6 +262,15 @@ footer {
 #x{
     color:black;
 }
+#facebook:hover{
+    color:purple;
+}
+#instagram:hover{
+    color:orange;
+}
+#x:hover{
+    color:grey;
+}
 
 .footer-section ul li a{
     color: yellow;
@@ -350,3 +359,4 @@ footer {
         transform: translateY(0);
     }
 }
+
